@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap");
+body {
+  height: 70vh;
+  background-color: #333746;
+  color: #ebebec;
+  font-family: "Archivo", sans-serif;
+}
+
+.landing-text {
+  margin-top: 7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.landing-text h1 {
+  font-size: 8rem;
+}
+
+.landing-text .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.landing-text .social a {
+  text-decoration: none;
+  color: #ebebec;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=Landing.css.map */
