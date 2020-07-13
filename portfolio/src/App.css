@@ -2,20 +2,8 @@
 /* dark grey #242834 */
 /* font color #EBEBEC */
 /* orange action color #FFC15C */
-
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  /* text-align: center; */
 }
 
 .App-header {
