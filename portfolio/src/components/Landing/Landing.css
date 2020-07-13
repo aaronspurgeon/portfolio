@@ -29,5 +29,14 @@ body {
   text-decoration: none;
   color: #ebebec;
   margin-right: 10px;
+  font-size: 1rem;
+}
+
+.landing-text .landing-flex {
+  width: 25rem;
+}
+
+.landing-text .landing-flex h3 {
+  font-size: 2.5rem;
 }
 /*# sourceMappingURL=Landing.css.map */
