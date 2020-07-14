@@ -27,7 +27,7 @@ export default function Landing() {
                     <NavBar />
                     <p className='intro-text'>- Introduction</p>
                     <h3 className='title'>Full Stack Developer, based in New Hampshire</h3>
-                    <p className='summary'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus est pariatur quibusdam a alias praesentium iste temporibus.</p>
+                    <p className='summary'>Constantly refining my skills and learning new technologies. Craving an excellent team to work with in a great company environment.</p>
                     <SlidingPanel />
                 </div>
             </div>

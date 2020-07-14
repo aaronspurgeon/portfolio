@@ -12,9 +12,9 @@ export default function SlidingPanel() {
 
     return (
         <div>
-            <button onClick={() => setState({ isPaneOpen: true })}>
-                Click me to open right pane!
-      </button>
+            <button onClick={() => setState({ isPaneOpen: true })} className='cta-btn'>
+                My Story {'\u2192'}
+            </button>
             {/* <div style={{ marginTop: "32px" }}>
                 <button onClick={() => setState({ isPaneOpenLeft: true })}>
                     Click me to open left pane with 20% width!

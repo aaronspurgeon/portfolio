@@ -1,3 +1,34 @@
 .some-custom-class {
   background-color: #333746;
 }
+
+.cta-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 1.4rem;
+  color: #ffc15c;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.cta-btn:hover {
+  cursor: pointer;
+}
+
+.cta-btn:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffc15c;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.cta-btn:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
