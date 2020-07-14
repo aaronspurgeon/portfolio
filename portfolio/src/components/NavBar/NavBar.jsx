@@ -5,9 +5,9 @@ import './NavBar.scss'
 export default function NavBar() {
     return (
         <div>
-            <a href="#">Services</a>
-            <a href="#">Works</a>
-            <a href="#">Blog</a>
+            <a href="#">Projects</a>
+            {/* <a href="#">Works</a> */}
+            <a href="#">Contact Me</a>
         </div>
     )
 }
