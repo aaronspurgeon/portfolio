@@ -1,4 +1,4 @@
-a {
+.nav-link {
   text-decoration: none;
   color: #ebebec;
   margin-right: 20px;
@@ -7,11 +7,11 @@ a {
   padding-bottom: 10px;
 }
 
-a:hover {
+.nav-link:hover {
   color: #ebebec;
 }
 
-a:before {
+.nav-link:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -26,7 +26,7 @@ a:before {
   transition: all 0.3s ease-in-out 0s;
 }
 
-a:hover::before {
+.nav-link:hover::before {
   visibility: visible;
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
