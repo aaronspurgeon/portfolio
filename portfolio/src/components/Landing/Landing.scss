@@ -8,20 +8,14 @@ body {
 
 .landing-text {
   //   margin-left: %;
-  margin-top: 7%;
+  margin-top: 3%;
   display: flex;
   justify-content: space-around;
 
   .name {
     font-size: 8rem;
   }
-  //   div.yourdivname:after {
-  //     content: ".";
-  //       border-bottom:1px solid grey;
-  //       width:60%;
-  //       display:block;
-  //       margin:0 auto;
-  //     }
+
   .name:after {
     content: "";
     border-bottom: 10px solid #ffc15c;
@@ -29,7 +23,6 @@ body {
     display: block;
     padding-top: 25px;
     border-radius: 2%;
-    // margin: 0 auto;
   }
 
   .social {
@@ -48,15 +41,32 @@ body {
     }
   }
 
+  .second {
+    position: relative;
+    top: 105px;
+  }
+
   .landing-flex {
     width: 25rem;
+
+    .landing-jazz {
+      display: flex;
+
+      img {
+        z-index: -1;
+        position: relative;
+        right: 29.65rem;
+        top: 13rem;
+        transform: scale(1.2);
+      }
+    }
 
     h3 {
       font-size: 2.5rem;
     }
 
     .intro-text {
-      padding-top: 100px;
+      padding-top: 60px;
       font-size: 1.2rem;
       letter-spacing: 3px;
       color: #939599;

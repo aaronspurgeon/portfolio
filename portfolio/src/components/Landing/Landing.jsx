@@ -2,14 +2,19 @@ import React from 'react'
 import './Landing.scss'
 import NavBar from '../NavBar/NavBar'
 import { AiFillGithub, AiFillTwitterCircle, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
-import img from '../../images/portfolio.png'
+import img from '../../images/landing.svg'
 
 export default function Landing() {
     return (
         <div>
             <div className="landing-text">
                 <div className="landing-flex">
-                    <h1 className='name'>Aaron<br />Spurgeon.</h1>
+                    <div className="landing-jazz">
+                        <h1 className='name'>Aaron<br />Spurgeon.</h1>
+                        <img src={img} alt="person thinking next to computer" />
+                    </div>
+
+
                     <div className="social">
                         <a href='https://github.com/aaronspurgeon' target="_blank" className='icons'><AiFillGithub size={36} /></a>
                         <a href='https://twitter.com/unalikez' target="_blank" className='icons'><AiFillTwitterCircle size={36} /></a>
