@@ -3,6 +3,7 @@ import './Landing.scss'
 import NavBar from '../NavBar/NavBar'
 import { AiFillGithub, AiFillTwitterCircle, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
 import img from '../../images/landing.svg'
+import SlidingPanel from '../SlidingPanel/SlidingPanel'
 
 export default function Landing() {
     return (
@@ -27,6 +28,7 @@ export default function Landing() {
                     <p className='intro-text'>- Introduction</p>
                     <h3 className='title'>Full Stack Developer, based in New Hampshire</h3>
                     <p className='summary'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus est pariatur quibusdam a alias praesentium iste temporibus.</p>
+                    <SlidingPanel />
                 </div>
             </div>
         </div>
